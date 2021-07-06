@@ -51,7 +51,7 @@ for c in range(0, len(alpha), 1):  # digita os códigos no formulário do sistem
         keyboard.press_and_release('enter')
         sleep(0.4)
 
-for q in alpha:  # adiciona os preços dos exames á lista omega
+for q in alpha:  # adiciona os preços dos exames à lista omega
     omega.append(precos[q])
 
 total = sum(omega)
